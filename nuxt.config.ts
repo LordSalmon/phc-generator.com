@@ -29,5 +29,11 @@ export default defineNuxtConfig({
                 trackLocalhost: true,
             },
         ],
+        "nuxt-headlessui",
+        "@vueuse/nuxt",
+        "nuxt-icon",
     ],
+    headlessui: {
+        prefix: "",
+    },
 });
