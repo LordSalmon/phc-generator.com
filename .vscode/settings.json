@@ -1,0 +1,15 @@
+{
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.formatOnSave": false
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.formatOnSave": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.formatOnSave": false
+    },
+    "dotenv.enableAutocloaking": false
+}
