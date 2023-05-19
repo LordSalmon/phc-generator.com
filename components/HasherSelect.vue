@@ -10,7 +10,7 @@ const options = [
 </script>
 
 <template>
-    <div class="my-8">
+    <div class="mb-8">
         <Listbox
             v-model="hasher"
             class="w-80"
