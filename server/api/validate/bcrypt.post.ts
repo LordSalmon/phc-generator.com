@@ -8,5 +8,12 @@ export default defineEventHandler(async (event) => {
             statusMessage: "Bad Request: no body provided",
         });
     }
-    return await bcrypt.verify(body.hash, body.plain);
+    try {
+        return await bcrypt.verify(body.hash, body.plain);
+    } catch (e) {
+        throw createError({
+            status: 400,
+            statusMessage: "Bad Request: invalid hash",
+        });
+    }
 });

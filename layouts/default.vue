@@ -12,6 +12,24 @@
                 href="https://simonschwedes.ch"
                 target="_blank"
             >Simon Schwedes</a></span>
+            <div class="ml-2">
+                •
+            </div>
+            <NuxtLink
+                to="/"
+                class="ml-2 underline"
+            >
+                <span>Home</span>
+            </NuxtLink>
+            <div class="ml-2">
+                •
+            </div>
+            <NuxtLink
+                class="ml-2 underline"
+                to="api"
+            >
+                <span>Api reference</span>
+            </NuxtLink>
         </div>
     </div>
 </template>

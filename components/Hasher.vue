@@ -40,6 +40,7 @@ function copyHash() {
             <input
                 v-model="plain"
                 class="text-base bg-transparent outline-none w-full"
+                placeholder="Enter text to encrypt"
                 @keydown.enter="hashInput()"
             >
             <div
@@ -57,6 +58,8 @@ function copyHash() {
             <input
                 v-model="hash"
                 class="text-base bg-transparent outline-none w-full"
+                readonly
+                placeholder="Hash"
             >
             <div
                 class="flex items-center bg-slate-800"

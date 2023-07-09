@@ -46,12 +46,21 @@ async function validateHash() {
                 name="heroicons:x-circle"
                 class="w-6 h-6 text-red-500"
             />
+            <span
+                v-if="matches"
+                class="ml-2 font-medium text-sm text-green-500"
+            >matches :)</span>
+            <span
+                v-else-if="matches === false"
+                class="ml-2 font-medium text-sm text-red-500"
+            >nope :(</span>
         </div>
 
         <div class="box-border py-2 px-3 rounded-lg bg-slate-800 flex items-center justify-between gap-2 w-full my-2">
             <input
                 v-model="plain"
                 class="text-base bg-transparent outline-none w-full"
+                placeholder="Plain text"
                 @keydown.enter="validateHash()"
             >
             <div
@@ -69,6 +78,7 @@ async function validateHash() {
             <input
                 v-model="hashToCheck"
                 class="text-base bg-transparent outline-none w-full"
+                placeholder="Hash to check"
                 @keydown.enter="validateHash()"
             >
             <div
