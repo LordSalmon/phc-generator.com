@@ -17,10 +17,11 @@
         "@vueuse/core": "^10.2.1",
         "@vueuse/nuxt": "^10.2.1",
         "eslint": "^8.44.0",
-        "nuxt": "^3.6.2",
+        "nuxt": "^3.8.2",
         "nuxt-headlessui": "^1.1.4",
         "nuxt-icon": "^0.4.2",
-        "typescript": "5.0.4"
+        "typescript": "5.0.4",
+        "vite": "^5.0.10"
     },
     "dependencies": {
         "argon2": "^0.30.3",
