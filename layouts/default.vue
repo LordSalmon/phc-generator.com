@@ -8,14 +8,16 @@
             <Links />
         </div>
         <div class="hidden md:flex fixed bottom-0 w-full p-2 text-slate-400 font-medium text-sm">
-            <span>Made with ❤️ by <a
-                href="https://simonschwedes.ch"
+            <span>Made with ❤️ by <NuxtLink
+                title="Simon Schwedes"
+                to="https://simonschwedes.ch"
                 target="_blank"
-            >Simon Schwedes</a></span>
+            >Simon Schwedes</NuxtLink></span>
             <div class="ml-2">
                 •
             </div>
             <NuxtLink
+                title="Home"
                 to="/"
                 class="ml-2 underline"
             >
@@ -25,6 +27,7 @@
                 •
             </div>
             <NuxtLink
+                title="Api reference"
                 class="ml-2 underline"
                 to="api"
             >

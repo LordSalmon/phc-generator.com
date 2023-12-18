@@ -35,7 +35,9 @@ async function validateHash() {
 <template>
     <div class="flex flex-col justify-center items-center md:w-[50vw] w-[90vw]">
         <div class="flex items-center w-full my-4">
-            <span class="text-2xl font-medium mr-2">Check</span>
+            <h3 class="text-2xl font-medium mr-2">
+                Check
+            </h3>
             <Icon
                 v-if="matches"
                 name="heroicons:check-circle"

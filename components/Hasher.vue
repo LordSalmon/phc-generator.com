@@ -34,7 +34,9 @@ function copyHash() {
 <template>
     <div class="flex flex-col justify-center items-center md:w-[50vw] w-[90vw]">
         <div class="flex items-center w-full my-4">
-            <span class="text-2xl font-medium">Encrypt</span>
+            <h3 class="text-2xl font-medium">
+                Encrypt
+            </h3>
         </div>
         <div class="box-border py-2 px-3 rounded-lg bg-slate-800 flex items-center justify-between gap-2 w-full my-2">
             <input

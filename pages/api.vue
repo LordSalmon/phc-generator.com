@@ -4,6 +4,25 @@ definePageMeta({
     layout: "default",
 });
 
+const url = "https://phc-generator.com/api";
+
+useHead({
+    title: "PHC Generator - Api reference",
+    htmlAttrs: {
+        lang: "en",
+    },
+});
+
+useServerSeoMeta({
+    robots: "index, follow",
+    author: "Simon Schwedes",
+    publisher: "Schwedes Solutions",
+    title: "PHC Generator - Generate PHC hashed with bcrypt and argon2",
+    description: "Generate hashes with bcrypt and argon2 using the PHC Format for these hashes. You can also validate your bcrypt and argon2 hashes with this tool.",
+    ogUrl: url,
+    keywords: "bcrypt, argon2, hash, generator, phc, phc generator, phc generator online, phc generator tool, phc generator website, phc generator online tool, phc generator website tool, phc generator online website, phc generator website online, phc generator online website tool, phc generator website online tool, phc generator online tool website, phc generator tool online website, phc generator tool website online, phc generator website tool online, phc generator website online tool, phc generator tool online, phc generator online tool, phc generator",
+});
+
 </script>
 
 <template>

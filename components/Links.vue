@@ -23,11 +23,11 @@ const options: Link[] = [
 
 <template>
     <div class="flex flex-col items-center justify-end box-border p-4">
-        <a
+        <NuxtLink
             v-for="option in options"
             :key="option.url"
             class="flex items-center justify-center gap-2 my-2 group cursor-pointer"
-            :href="option.url"
+            :to="option.url"
             target="_blank"
             :title="option.title"
         >
@@ -35,6 +35,6 @@ const options: Link[] = [
                 :name="option.icon"
                 class="w-6 h-6 transition-all duration-150 group-hover:-rotate-12 group-hover:text-white"
             />
-        </a>
+        </NuxtLink>
     </div>
 </template>
