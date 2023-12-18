@@ -25,7 +25,7 @@ export default defineNuxtConfig({
             "@nuxtjs/plausible",
             {
                 domain: "phc-generator.com",
-                apiHost: "https://plausible.schwedes.eu",
+                apiHost: "https://analytics.schwedes-solutions.ch",
                 trackLocalhost: true,
             },
         ],
